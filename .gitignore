@@ -219,6 +219,13 @@ __marimo__/
 exercises/.DS_Store
 .DS_Store
 
+# Workshop: solutions students export from the homework notebooks stay local
+workshop/solutions/*.py
+workshop/solutions/*.joblib
+workshop/solutions/*.pt
+# ...but the exported homework copies land next to the notebooks too
+workshop/homework/solution_part*.py
+
 # Node / frontend (keep package.json and package-lock.json; ignore installed deps + build output)
 node_modules/
 dist/
